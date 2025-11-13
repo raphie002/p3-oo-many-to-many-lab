@@ -1,5 +1,5 @@
 from many_to_many import Author, Book, Contract
-import pytest
+import pytest # type: ignore
 
 def test_book_init():
     """Test Book class initializes with title"""
